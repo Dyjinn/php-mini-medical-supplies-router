@@ -72,3 +72,12 @@ git commit -m "init: create medical supplies routing app"
 git branch -M main
 git remote add origin https://github.com/USERNAME/php-mini-medical-supplies-router.git
 git push -u origin main
+```
+
+## Ghi chú nộp bài
+
+Khi nộp theo yêu cầu môn học, đổi tên file báo cáo thành:
+
+```text
+MSSV_HoTenSinhVien_PHP_Lab03.pdf
+```
