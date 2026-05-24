@@ -1,0 +1,16 @@
+Tiêu đề email: MSSV_HoTenSinhVien_PHP_Lab03
+Gửi mail: tuantran261083course@gmail.com
+
+Nội dung email mẫu:
+
+Kính gửi Thầy,
+
+Em gửi bài PHP Lab03 - Front Controller, Router & Standard Response.
+
+Thông tin bài làm:
+- Ứng dụng đã chọn: Mini Medical Supplies Routing App.
+- Em đã làm đầy đủ các chức năng: Front Controller, Router, Response helper, controller theo nhóm chức năng, HTML response, JSON response, redirect, 404, 405, form submit POST, login/logout demo.
+- Em có làm thêm: fallback autoload để project vẫn chạy thử được nếu máy chưa cài Composer. Khi nộp chính thức vẫn chạy composer dump-autoload theo yêu cầu.
+- Bài không nộp trễ. Nếu nộp trễ: [ghi lý do tại đây].
+
+Em xin cảm ơn Thầy.

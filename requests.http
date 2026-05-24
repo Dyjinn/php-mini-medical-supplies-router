@@ -1,0 +1,35 @@
+### Home HTML
+GET http://localhost:8000/
+
+### Health JSON
+GET http://localhost:8000/health
+
+### Supplies list
+GET http://localhost:8000/supplies
+
+### Create supply form
+GET http://localhost:8000/supplies/create
+
+### Submit supply form
+POST http://localhost:8000/supplies
+Content-Type: application/x-www-form-urlencoded
+
+name=Surgical Mask&group=Personal Protection&supplier=MedCare Vietnam&unit_price=85000&quantity=20
+
+### Login form
+GET http://localhost:8000/login
+
+### Login submit
+POST http://localhost:8000/login
+Content-Type: application/x-www-form-urlencoded
+
+email=student@example.com&password=123456
+
+### Redirect
+GET http://localhost:8000/go-home
+
+### 404
+GET http://localhost:8000/unknown
+
+### 405
+POST http://localhost:8000/health

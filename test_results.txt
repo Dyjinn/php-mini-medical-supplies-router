@@ -1,0 +1,15 @@
+Tested in container with PHP built-in server:
+
+php -S 127.0.0.1:8000 -t public public/index.php
+
+Results summary:
+
+GET / -> 200 OK, Content-Type: text/html; charset=UTF-8
+GET /health -> 200 OK, Content-Type: application/json; charset=UTF-8
+GET /supplies -> 200 OK, Content-Type: text/html; charset=UTF-8
+GET /supplies/create -> 200 OK, Content-Type: text/html; charset=UTF-8
+GET /login -> 200 OK, Content-Type: text/html; charset=UTF-8
+GET /go-home -> 302 Found, Location: /
+GET /unknown -> 404 Not Found
+POST /health -> 405 Method Not Allowed, Allow: GET
+POST /supplies -> 302 Found, Location: /supplies?created=1

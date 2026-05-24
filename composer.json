@@ -1,0 +1,11 @@
+{
+  "name": "student/php-mini-medical-supplies-router",
+  "description": "PHP Lab03 - Mini Medical Supplies Routing App using Front Controller, Router and Standard Response.",
+  "type": "project",
+  "autoload": {
+    "psr-4": {
+      "App\\": "src/"
+    }
+  },
+  "require": {}
+}
