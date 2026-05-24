@@ -74,8 +74,6 @@ git remote add origin https://github.com/USERNAME/php-mini-medical-supplies-rout
 git push -u origin main
 ```
 
-## Ghi chú nộp bài
-
 Khi nộp theo yêu cầu môn học, đổi tên file báo cáo thành:
 
 ```text
